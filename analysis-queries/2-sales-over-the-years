@@ -1,1 +1,8 @@
+/*Sales Over The Years*/
+SELECT Year,
+  SUM(Worldwide_Sales__Est__) as total_sale
+FROM albumsales.Album_Sales.Top_Albums
+GROUP BY Year
+ORDER BY Year;
 
+Displays the total sales for each year from 1990-2021.
