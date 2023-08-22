@@ -1,4 +1,7 @@
+/*Top Selling Album 1990-2021*/
 SELECT Year, Album, Artist
 FROM albumsales.Album_Sales.Top_Albums
 WHERE Ranking=1
 ORDER BY Year;
+
+Displays the names of the Top Selling Albums and the Top Selling Artist for each year from 1990-2021.
