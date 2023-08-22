@@ -1,0 +1,7 @@
+/*Number of CDs Included*/
+SELECT CDs, COUNT(Album) AS Albums
+FROM albumsales.Album_Sales.Top_Albums
+GROUP BY CDs
+ORDER BY CDs;
+
+Outputs the number of CDs generally included in albums
