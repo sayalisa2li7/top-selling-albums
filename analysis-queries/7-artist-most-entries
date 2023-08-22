@@ -1,5 +1,5 @@
 /*Top 10 Artist With Most Entries*/
-SELECT Artist, COUNT(Ranking) 
+SELECT Artist, COUNT(Ranking) AS Entries
 FROM albumsales.Album_Sales.Top_Albums
 GROUP BY Artist
 ORDER BY COUNT(Ranking) DESC
