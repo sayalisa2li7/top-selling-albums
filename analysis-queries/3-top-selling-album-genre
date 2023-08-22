@@ -1,0 +1,7 @@
+/*Top Selling Album's Genre 1990-2021*/
+SELECT Year, Album, Genre
+FROM albumsales.Album_Sales.Top_Albums
+WHERE Ranking=1
+ORDER BY Year;
+
+Outputs the genre of the top selling album for each year from 1990-2021.
