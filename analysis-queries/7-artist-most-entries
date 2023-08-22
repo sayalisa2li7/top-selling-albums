@@ -1,0 +1,8 @@
+/*Top 10 Artist With Most Entries*/
+SELECT Artist, COUNT(Ranking) 
+FROM albumsales.Album_Sales.Top_Albums
+GROUP BY Artist
+ORDER BY COUNT(Ranking) DESC
+LIMIT 10;
+
+Outputs the Top 10 Artists with the most entries on the chart.
