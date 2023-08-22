@@ -1,0 +1,8 @@
+/*Genre Sales Over The Years*/
+SELECT Genre, Year,
+  SUM(Worldwide_Sales__Est__) as total_sale
+FROM albumsales.Album_Sales.Top_Albums
+GROUP BY Genre, Year
+ORDER BY Genre, Year;
+
+Total Sales of each genre over the years.
