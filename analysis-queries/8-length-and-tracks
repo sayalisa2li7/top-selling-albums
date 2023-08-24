@@ -1,0 +1,5 @@
+/*Album Length and Tracks*/
+SELECT Year, Album, Tracks, Album_Length
+FROM albumsales.Album_Sales.Top_Albums
+WHERE Ranking=1
+ORDER BY Year
