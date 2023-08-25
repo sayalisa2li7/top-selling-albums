@@ -33,7 +33,7 @@ Key Findings:
 
 * Out of the 320 Top 10 Selling Albums, 308(96.25%) include only 1 CD. All of the Rank 1 Top Selling Albums include only 1 CD. The sum of sales for albums with only 1 CD is much more than the sum of sales for albums with 2 CDs and 4 CDs combined.
 
-<br><br>
+<br>
 
 See [Dashboards]( https://github.com/sayalisa2li7/top-selling-albums/tree/main/analysis-dashboards). <br><br>
 
