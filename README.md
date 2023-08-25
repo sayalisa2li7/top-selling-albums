@@ -1,7 +1,7 @@
 # top-selling-albums
 Analysis of the Top 10 Selling Albums from 1990-2021.
 # Top 10 Selling Albums Chart  Analysis
-#Using SQL and Power BI
+# Using SQL and Power BI <br><br>
 Scenario: <br>
 
 In this project, I did an analysis of the trend in album sales over the years. The dataset used was posted on Kaggle. It includes the data about the top 10 best selling albums each year, from 1990 to 2021. The data about the album name, artist name, album length, total sales and genre is included. 
